@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <section class="hero-section">
+      <div
+        class="container-fluid hero-wrapper carousel slide"
+        id="carouselExampleIndicators"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/iphone.jpeg"
+              alt="iphone"
+              class="img-fluid iphone-img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/iphone.jpeg"
+              alt="iphone2"
+              class="img-fluid iphone-img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/iphone.jpeg"
+              alt="iphones"
+              class="img-fluid iphone-img"
+            />
+          </div>
+        </div>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop-collection container">
+      <div class="rectangle-wrapper text-center">
+        <div class="rectangle"></div>
+        <p>Featured</p>
+      </div>
+      <div class="shop-text-wrapper mt-2">
+        <h3 class="shop-text">Shop Collection</h3>
+      </div>
+      <main class="shop-wrapper row gx-3">
+        <div class="col-lg-6 col-md-12">
+          <div
+            class="headband-img d-flex align-items-end justify-content-center"
+          >
+            <div class="headband-text text-center">
+              <h3>Headband</h3>
+              <p>Collection</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="row g-3">
+            <div class="col-12">
+              <div
+                class="earbuds-img d-flex align-items-end justify-content-center"
+              >
+                <div class="earbuds-text text-center">
+                  <h3>Earbuds</h3>
+                  <p>Collection</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div
+                class="accessories-img d-flex align-items-end justify-content-center"
+              >
+                <div class="accessories-text text-center">
+                  <h3>Accessories</h3>
+                  <p>Collection</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="promotion container">
+      <div class="text-wrapper">
+        <div class="rectangle-wrapper text-center">
+          <div class="rectangle"></div>
+          <p>Featured</p>
+        </div>
+        <div class="shop-text-wrapper mt-2">
+          <h3 class="shop-text">Promotion</h3>
+        </div>
+      </div>
+      <main class="row">
+        <div class="col-lg-6 man-img"></div>
+        <div class="col-lg-6 promotion-banner">
+          <div class="promotion-wrapper">
+            <p class="text-primary">PROMOTION</p>
+            <h2>Hurry up! 40% OFF</h2>
+            <p>Thousands of high tech are waiting for you</p>
+            <p>Offer expires in:</p>
+            <div class="counter">
+              <div class="days">
+                <span id="days">00</span>
+                <small>Days</small>
+              </div>
+              <div class="hours">
+                <span id="hours">00</span>
+                <small>Hours</small>
+              </div>
+              <div class="minutes">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+              </div>
+              <div class="seconds">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+              </div>
+            </div>
+            <div class="shop-now-btn">
+              <button>Shop now</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="special-promotion">
+      <div class="text-wrapper text-div">
+        <div class="rectangle-wrapper text-center our-products">
+          <div class="rectangle"></div>
+          <p>Our products</p>
+        </div>
+        <div class="shop-text-wrapper mt-2">
+          <h3 class="shop-text">Special Promotion</h3>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner-info">
+          <p class="proBeyond">Pro.Beyond</p>
+          <h1 class="title">
+            IPhone 14 <strong class="font-bold">Pro</strong>
+          </h1>
+          <p class="description">
+            Created to change everything for the better. For everyone
+          </p>
+          <div class="shop-btn">
+            <button class="shop-button">Shop Now</button>
+          </div>
+        </div>
+        <div class="banner-img">
+          <img
+            src="./assets/images/iphone-img.png"
+            alt="iphone"
+            class="img-fluid image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback-corner">
+      <h2 class="text-center text-danger my-4">Feedback Corner</h2>
+      <div class="feedback-wrapper">
+        <div class="first-feedback">
+          <span class="quote text-danger">“</span>
+          <h4 class="text-danger my-3">Emily Wilson</h4>
+          <p>
+            The customer experience was exceptional from start to finish. The
+            website is user-friendly, the checkout process was smooth, and the
+            clothes I ordered fit perfectly. I'm beyond satisfied!
+          </p>
+        </div>
+        <div class="second-feedback first-feedback">
+          <span class="quote text-danger">“</span>
+          <h4 class="text-danger my-3">Sarah Thompson</h4>
+          <p>
+            I absolutely love the quality and style of the clothing I purchased
+            from this website. customer service was outstanding, and I received
+            my order quickly. Highly recommended!
+          </p>
+        </div>
+        <div class="first-feedback">
+          <span class="quote text-danger">“</span>
+          <h4 class="text-danger my-3">Olivia Martinez</h4>
+          <p>
+            I had a great experience shopping on this website. The clothes I
+            bought are fashionable and comfortable. Highly satisfied!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-products">
+      <div class="text-wrapper text-div">
+        <div class="rectangle-wrapper text-center our-products">
+          <div class="rectangle"></div>
+          <p>Our products</p>
+        </div>
+        <div class="shop-text-wrapper mt-2">
+          <h3 class="shop-text">Explore Our Products</h3>
+        </div>
+      </div>
+      <div class="products-wrapper">
+        <div class="product-box">
+          <div class="product-img">
+            <img
+              src="./assets/images/huawei.png"
+              alt="huawei"
+              width="120px"
+              height="120px"
+              class="img-fluid"
+            />
+          </div>
+          <div class="product-title">
+            <h1>Popular Products</h1>
+          </div>
+          <div class="product-desc">
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+          </div>
+          <div class="product-btn">
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="product-box">
+          <div class="product-img">
+            <img
+              src="./assets/images/ipad-pro.png"
+              alt="huawei"
+              width="120px"
+              height="120px"
+              class="img-fluid"
+            />
+          </div>
+          <div class="product-title">
+            <h1>Ipad Pro</h1>
+          </div>
+          <div class="product-desc">
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+          </div>
+          <div class="product-btn">
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="product-box">
+          <div class="product-img">
+            <img
+              src="./assets/images/samsung.png"
+              alt="huawei"
+              width="120px"
+              height="120px"
+              class="img-fluid"
+            />
+          </div>
+          <div class="product-title">
+            <h1>Samsung Galaxy</h1>
+          </div>
+          <div class="product-desc">
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+          </div>
+          <div class="product-btn">
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="product-box">
+          <div class="product-img">
+            <img
+              src="./assets/images/macbook.png"
+              alt="huawei"
+              width="120px"
+              height="120px"
+              class="img-fluid"
+            />
+          </div>
+          <div class="product-title">
+            <h1>Macbook Pro</h1>
+          </div>
+          <div class="product-desc">
+            <p>
+              iPad combines a magnificent 10.2-inch Retina display, incredible
+              performance, multitasking and ease of use.
+            </p>
+          </div>
+          <div class="product-btn">
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

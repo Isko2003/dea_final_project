@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.product-detail {
+  padding: 119px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.product-details {
+  display: flex;
+  max-width: 900px;
+  gap: 40px;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.price {
+  font-size: 24px;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.rating {
+  font-size: 18px;
+  color: #f4b400;
+}
+
+.add-to-cart {
+  background: #d9534f;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-to-cart:hover {
+  background: #c9302c;
+}

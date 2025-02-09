@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+}
+
+footer {
+  background-color: #db4444;
+  padding: 80px 135px;
+  min-height: auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.input-container {
+  position: relative;
+  width: 190px;
+}
+
+.input-field {
+  background-color: transparent;
+  border: 1px solid white;
+  color: #fafafa;
+}
+
+.input-field::placeholder {
+  color: #fafafa;
+}
+
+.input-icon {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  color: #fafafa;
+}
+
+.footer-wrapper * {
+  margin-bottom: 0.8rem;
+  color: #fafafa;
+}
+
+.footer-text {
+  font-weight: 200;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.get-app {
+  height: auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.copyright {
+  color: #ffffff;
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  opacity: 40%;
+  margin-top: 20px;
+}
+
+.underline {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  border: 1px solid #ffffff;
+  opacity: 20%;
+}
+
+.qrcode-img {
+  height: auto;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 40px 20px;
+  }
+
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .download {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+.get-app-img {
+  width: 230px;
+  height: 20px;
+}
+
+.get-app-google {
+  width: 200px;
+  height: 20px;
+}
+
+.get-app {
+  height: 140px;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.google-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  padding: 8px;
+  height: 60px;
+  width: 140px;
+}
+
+.app-store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 4px;
+  padding: 8px;
+  height: 60px;
+  width: 140px;
+}
+
+.qrcode-img {
+  height: 140px;
+  width: 220px;
+}

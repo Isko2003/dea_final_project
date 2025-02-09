@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.shop-wrapper {
+  padding: 119px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#search {
+  width: 200px !important;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.filter-div ul li {
+  cursor: pointer;
+  width: min-content;
+}
+
+.row > * {
+  padding: 0 !important;
+}
+
+.rate-filter div i {
+  cursor: pointer;
+}
+
+#sort {
+  width: 200px !important;
+}
+
+.add-to-cart {
+  width: 180px !important;
+}
+
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.products-wrapper div {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.products-wrapper div:hover {
+  transform: translateY(-5px);
+}
+
+.products-wrapper img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.products-wrapper h4 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.products-wrapper p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.products-wrapper .text-danger {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.products-wrapper button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.products-wrapper button:hover {
+  background: #333;
+}
