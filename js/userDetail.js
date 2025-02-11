@@ -1,3 +1,5 @@
+let productForSaleBtn = document.getElementById("productForSale");
+
 document.addEventListener("DOMContentLoaded", () => {
   let users = JSON.parse(localStorage.getItem("users")) || [];
   let productForSaleBtn = document.getElementById("productForSale");
@@ -19,5 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   } else {
     productForSaleBtn.disabled = "true";
+    alert(
+      "Məhsul əlavə etmək və məlumatlarınızı görmək üçün əvvəlcə qeydiyyatdan keçməlisiniz :("
+    );
+    window.location.href = "signup.html";
   }
 });

@@ -1,4 +1,5 @@
 const inputs = document.querySelectorAll("input");
+const okButton = document.querySelector("#okButton");
 const form = document.querySelector("form");
 const successModal = new bootstrap.Modal(
   document.getElementById("successModal")
@@ -51,4 +52,18 @@ form.addEventListener("submit", (e) => {
   });
 
   successModal.show();
+});
+
+window.onload = function () {
+  let isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"));
+  if (isLoggedIn) {
+    alert(
+      "Siz artıq qeydiyyatdan keçib login olmusuz signup səhifəsinə keçid edə bilməzsiniz!"
+    );
+    window.location.href = "index.html";
+  }
+};
+
+okButton.addEventListener("click", () => {
+  window.location.href = "login.html";
 });
