@@ -64,7 +64,9 @@ function displayCartProducts() {
         <span>Total</span>
         <span id="total">$${subtotal.toFixed(2)}</span>
     </div>
-    <button class="checkout-btn">Proceed to checkout</button>
+    <a href="./checkout.html">
+      <button class="checkout-btn">Proceed to checkout</button>
+    </a>
   `;
 }
 
